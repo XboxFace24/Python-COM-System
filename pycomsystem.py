@@ -181,9 +181,6 @@ And that's literally the only command in the jimothi program""")
         print(text)
     elif command == "datetime now":
         print(datetime.datetime.now())
-    elif "install" in command:
-        package = command[8:]
-        exec(open(package + ".py").read())
     elif command == "gdrandid":
         print(random.randint(128, 88507182))
     elif "countdown" in command:
