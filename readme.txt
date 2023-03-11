@@ -31,8 +31,6 @@ divide - opens the division calculator
 gdrandid - prints a random Geometry Dash Level ID
 Note: A lot of the IDs generated lead to levels which
 don't exist anymore on the Geometry Dash servers.
-install {package filename} - installs a package in .py format
-(can be used to install updates and custom packages)
 jimothi99 - opens the jimothi99 chatbot program
 len {word} - prints the length of a word
 move {filename} - opens a prompt to move a specified file from one
