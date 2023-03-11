@@ -78,10 +78,10 @@ Type "help factors" for info about command factors!
 Also, the only command in calculator programs is '!quit'
 Type "cd .." to go back to the previous directory.""")
     elif command == "help 2":
-        print("""install {package filename} - installs a package in .py format
-(can be used to install updates and custom packages)
+        print("""
 jimothi99 - opens the jimothi99 chatbot program
 len {word} - prints the length of a word or sentence
+ls - lists files in current directory
 mkdir {directory name} - makes a new directory with specified name
 move {filename} - opens a prompt to move a specified file from one
 directory to another
@@ -123,7 +123,7 @@ Type "cd .." to go back to the previous directory.""")
     elif command == "help jimothi":
         print("""!stop - quit the jimothi chatbot program
 And that's literally the only command in the jimothi program""")
-    elif command == "dir":
+    elif command == "dir" or command == "ls":
         dirlist = os.listdir()
         print(dirlist)
     elif "rmtree" in command:
